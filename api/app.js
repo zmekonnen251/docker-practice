@@ -9,16 +9,27 @@ app.get('/', (req, res) => {
 	res.json([
 		{
 			id: '1',
-			title:
-				'Book Review: Wow I did good job today!!!!!!The Bear & The Nightingale',
+			title: 'Baook Review: The Bear & The Nightingale',
 		},
 		{
 			id: '5',
-			title: 'Game Review: Pokemon Brillian Diamond',
+			title: 'Game Review: Pokemon Changed --',
 		},
 		{
 			id: '6',
 			title: 'Show Review: Alice in Borderland',
+		},
+		{
+			id: '7',
+			title: 'Baook Review: The Bear & The Nightingale',
+		},
+		{
+			id: '5',
+			title: 'Baook Review: The Bear & The Nightingale',
+		},
+		{
+			id: '6',
+			title: 'Baook Review: The Bear & The Nightingale',
 		},
 	]);
 });
